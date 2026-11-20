@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "unauthorized",
+    "message": "Invalid API key format. Keys start with eq_ \u2014 create one at https://equibles.com/dashboard/apikeys. See https://equibles.com/docs/authentication.",
+    "status": 401
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "eventId": "b1632050-152a-4e9e-82f8-252551b6924f",
+  "ticker": "AAPL",
+  "eventTitle": "Apple Inc. Q3 FY2026 Earnings Call",
+  "callDate": "2026-07-30T00:00:00+00:00",
+  "fiscalYear": 2026,
+  "fiscalQuarter": 3,
+  "turnCount": 3,
+  "totalTurnCount": 46,
+  "offset": 0,
+  "hasMore": true,
+  "isFiledRecord": false,
+  "data": [
+    {
+      "speakerIndex": 11,
+      "speakerName": "Suhasini Chandramouli",
+      "speakerRole": "Head of Investor Relations",
+      "text": "Good afternoon and welcome to the Apple Q3 Fiscal Year 2026 Earnings Conference Call. My name is Suhasini Chandramali, Director of Investor Relations. Today's call is being recorded. Speaking first \u2026",
+      "startSeconds": 2.04,
+      "endSeconds": 103.6
+    },
+    {
+      "speakerIndex": 1,
+      "speakerName": "Tim Cook",
+      "speakerRole": "CEO",
+      "text": "Thank you, Suhasini. Good afternoon, everyone, and thanks for joining the call. Today, Apple is pleased to report $109.4 billion in revenue, up 16 percent from a year ago and a June quarter record. \u2026",
+      "startSeconds": 104.28,
+      "endSeconds": 1041.54
+    },
+    {
+      "speakerIndex": 15,
+      "speakerName": "Kevan Parekh",
+      "speakerRole": "CFO",
+      "text": "Thanks, Tim, and good afternoon, everyone. Here's a quick rundown of our key financial metrics. Our revenue of $109.4 billion was up 16% year-over-year, a June quarter revenue record. We saw strong \u2026",
+      "startSeconds": 1042.92,
+      "endSeconds": 1673.94
+    }
+  ],
+  "corrections": []
+}

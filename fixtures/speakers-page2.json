@@ -1,0 +1,40 @@
+{
+  "eventId": "b1632050-152a-4e9e-82f8-252551b6924f",
+  "ticker": "AAPL",
+  "eventTitle": "Apple Inc. Q3 FY2026 Earnings Call",
+  "callDate": "2026-07-30T00:00:00+00:00",
+  "fiscalYear": 2026,
+  "fiscalQuarter": 3,
+  "turnCount": 3,
+  "totalTurnCount": 46,
+  "offset": 43,
+  "hasMore": false,
+  "isFiledRecord": false,
+  "data": [
+    {
+      "speakerIndex": 1,
+      "speakerName": "Tim Cook",
+      "speakerRole": "CEO",
+      "text": "Thank you so much for saying that. I appreciate \u2026",
+      "startSeconds": 3611.49,
+      "endSeconds": 3613.99
+    },
+    {
+      "speakerIndex": 11,
+      "speakerName": "Suhasini Chandramouli",
+      "speakerRole": "Head of Investor Relations",
+      "text": "Thank you, Samik. A replay of today's call will be available on Apple Podcasts and at apple.com slash investor. Thanks again for joining us \u2026",
+      "startSeconds": 3614.87,
+      "endSeconds": 3622.55
+    },
+    {
+      "speakerIndex": 9,
+      "speakerName": null,
+      "speakerRole": "Operator",
+      "text": "Once again, this does conclude today's conference. We do appreciate your \u2026",
+      "startSeconds": 3625.04,
+      "endSeconds": 3629.56
+    }
+  ],
+  "corrections": []
+}

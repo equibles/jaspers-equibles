@@ -1,0 +1,144 @@
+/* Square, in the app's theme: each colour is a theme variable with its light value as the fallback. */
+.eq-root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-size: 13px;
+  color: var(--jaspers-foreground, #171717);
+}
+.eq-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 36px 6px 8px;
+  border-bottom: 1px solid var(--jaspers-border, #e5e5e5);
+  min-width: 0;
+}
+.eq-body {
+  flex: 1;
+  overflow: auto;
+  padding: 0 0 12px;
+}
+.eq-ticker,
+.eq-find,
+.eq-select,
+.eq-button {
+  font: inherit;
+  color: inherit;
+  background: var(--jaspers-background, #ffffff);
+  border: 1px solid var(--jaspers-border, #e5e5e5);
+  border-radius: 0;
+  padding: 2px 6px;
+}
+.eq-ticker {
+  width: 7em;
+  font-family: var(--jaspers-font-mono, ui-monospace, monospace);
+  text-transform: uppercase;
+}
+.eq-find {
+  width: 10em;
+}
+.eq-button {
+  cursor: pointer;
+}
+.eq-button:hover {
+  background: var(--jaspers-muted, #f5f5f5);
+}
+.eq-more {
+  margin: 8px;
+}
+.eq-grow {
+  flex: 1;
+}
+.eq-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+.eq-muted {
+  color: var(--jaspers-muted-foreground, #737373);
+}
+.eq-note {
+  margin: 12px;
+  color: var(--jaspers-muted-foreground, #737373);
+}
+.eq-error {
+  margin: 12px;
+  color: var(--jaspers-destructive, #dc2626);
+}
+.eq-source {
+  margin: 8px 12px 0;
+  font-size: 11px;
+  color: var(--jaspers-muted-foreground, #737373);
+}
+.eq-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.eq-table th,
+.eq-table td {
+  padding: 4px 8px;
+  border-bottom: 1px solid var(--jaspers-border, #e5e5e5);
+  text-align: left;
+  white-space: nowrap;
+}
+.eq-table th {
+  position: sticky;
+  top: 0;
+  background: var(--jaspers-background, #ffffff);
+  color: var(--jaspers-muted-foreground, #737373);
+  font-weight: 500;
+}
+.eq-table th:last-child,
+.eq-table td:last-child {
+  padding-right: 36px;
+}
+.eq-num {
+  text-align: right !important;
+  font-family: var(--jaspers-font-mono, ui-monospace, monospace);
+  font-variant-numeric: tabular-nums;
+}
+.eq-tag {
+  margin-left: 6px;
+  padding: 0 4px;
+  font-size: 11px;
+  border: 1px solid var(--jaspers-border, #e5e5e5);
+  color: var(--jaspers-muted-foreground, #737373);
+}
+.eq-head {
+  margin: 8px 12px;
+}
+.eq-turn {
+  padding: 6px 36px 6px 12px;
+  border-bottom: 1px solid var(--jaspers-border, #e5e5e5);
+}
+.eq-speaker {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+.eq-n {
+  min-width: 2.2em;
+  font-family: var(--jaspers-font-mono, ui-monospace, monospace);
+  color: var(--jaspers-muted-foreground, #737373);
+}
+.eq-time {
+  margin-left: auto;
+  font-family: var(--jaspers-font-mono, ui-monospace, monospace);
+}
+.eq-text {
+  margin: 4px 0 0 2.2em;
+  line-height: 1.5;
+  font-family: var(--jaspers-font-prose, inherit);
+  white-space: pre-wrap;
+}
+.eq-text mark {
+  background: #fde68a;
+  color: inherit;
+}
+@media (prefers-color-scheme: dark) {
+  .eq-text mark {
+    background: #854d0e;
+  }
+}

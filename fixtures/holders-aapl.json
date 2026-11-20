@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "name": "BlackRock, Inc.",
+      "cik": "2012383",
+      "shares": 1157077341,
+      "value": 385329896088,
+      "percentOfTotal": 11.80151730417189,
+      "listedTicker": null,
+      "positionType": "Common",
+      "holderType": "Holding company",
+      "style": "Index-like",
+      "status": "filed"
+    },
+    {
+      "name": "VANGUARD CAPITAL MANAGEMENT LLC",
+      "cik": "2100119",
+      "shares": 955227784,
+      "value": 318109956627,
+      "percentOfTotal": 9.742768977360665,
+      "listedTicker": null,
+      "positionType": "Common",
+      "holderType": "Registered adviser",
+      "style": "Index-like",
+      "status": "filed"
+    },
+    {
+      "name": "STATE STREET CORP",
+      "cik": "93751",
+      "shares": 622507478,
+      "value": 207307440323,
+      "percentOfTotal": 6.349214968849175,
+      "listedTicker": null,
+      "positionType": "Common",
+      "holderType": "Bank",
+      "style": "Index-like",
+      "status": "filed"
+    }
+  ],
+  "meta": {
+    "reportDate": "2026-09-30",
+    "isCombinedQuarter": false,
+    "totalInstitutions": 6169,
+    "totalShares": 9804479468,
+    "totalValue": 3264459802051,
+    "styleReportDate": "2026-09-30",
+    "confidentialFilers": [
+      {
+        "name": "NORGES BANK",
+        "cik": "1374170",
+        "lastDisclosedShares": 190726866,
+        "lastDisclosedReportDate": "2026-06-30"
+      }
+    ],
+    "limit": 3,
+    "offset": 0,
+    "count": 3,
+    "hasMore": true
+  }
+}

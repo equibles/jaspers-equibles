@@ -1,0 +1,30 @@
+{
+  "name": "equibles",
+  "version": "1.0.0",
+  "description": "Equibles for Jaspers Terminal: a stock's 13F institutional holders and earnings call transcripts in speaker turns, plus SEC filings, financial statements, estimates, guidance and insider trades for the assistant.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/equibles/jaspers-equibles.git"
+  },
+  "jaspers": {
+    "sdk": "0.8.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test '*.test.ts'",
+    "package": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "@jaspers-ai/sdk": "^0.8.0",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "typescript": "^7.0.2",
+    "zod": "^4.6.7"
+  }
+}
