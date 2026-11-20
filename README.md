@@ -47,4 +47,4 @@ The Release workflow checks the plugin and attaches `equibles-<version>.zip` to 
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE). The packaging script, `tsconfig.json` and the CI and Release workflows are adapted from [JaspersAI/plugin-earningscall](https://github.com/JaspersAI/plugin-earningscall) (MIT).
